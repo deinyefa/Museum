@@ -1,6 +1,18 @@
 User testing
 Setting the scene
-- how big do you think you are? 
-- what do you feel like the mood of this place is?
-- is there anything you'd like to see that you can't really?
+- how big do you think you are? - feels small
+- what do you feel like the mood of this place is? - industrial 
+- is there anything you'd like to see that you can't really? - more images 
+- any other comments? - walls should be a bit more industrial to match the rest of the scene
+
+- how big is the introductory panel?
+- what do the instructions mean?
+- what happens when you click the button?
+
+- was there a problem moving through the room?
+- did you experience any kind of motion sickness?
+- any other considerations?
+
+- what did you think about the experience in general?
+- did you experience any kind of motion sickness?
 - any other comments?
