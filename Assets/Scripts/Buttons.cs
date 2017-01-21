@@ -46,7 +46,7 @@ public class Buttons : MonoBehaviour {
 
         iTween.MoveTo(player,
             iTween.Hash(
-                "position", new Vector3(camX, camY, camZ + 103.16f),
+                "position", new Vector3(camX, camY, camZ + 102.16f),
                 "time", .55F,
                 "easetype", "linear"
             )

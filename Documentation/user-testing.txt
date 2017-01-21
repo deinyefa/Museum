@@ -5,13 +5,13 @@ Setting the scene
 - is there anything you'd like to see that you can't really? - more images 
 - any other comments? - walls should be a bit more industrial to match the rest of the scene
 
-- how big is the introductory panel?
-- what do the instructions mean?
-- what happens when you click the button?
+- how big is the introductory panel? - big, but not in a bad way
+- what do the instructions mean? - click the floating panel to learn more about the company's work
+- what happens when you click the button? - moves forward (doesnt feel weird)
 
-- was there a problem moving through the room?
-- did you experience any kind of motion sickness?
-- any other considerations?
+- was there a problem moving through the room? - no problem moving though the room
+- did you experience any kind of motion sickness? - no
+- any other considerations? - font was a bit blurry
 
 - what did you think about the experience in general?
 - did you experience any kind of motion sickness?
