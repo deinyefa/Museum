@@ -22,7 +22,7 @@ public class CanvasAnimation : MonoBehaviour {
     {
         anim.SetBool("ReticleViewing", false);
     }
-
+    /*
     public void ShowMore ()
     {
         selectedAnim.SetBool("ClickedCanvas", true);
@@ -33,4 +33,5 @@ public class CanvasAnimation : MonoBehaviour {
     {
         selectedAnim.SetBool("ClickedCanvas", false);
     }
+    */
 }

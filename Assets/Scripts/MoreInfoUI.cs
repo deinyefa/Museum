@@ -4,32 +4,26 @@ using UnityEngine;
 
 public class MoreInfoUI : MonoBehaviour {
 
-    private GameObject moreInfoWW1;
-    private GameObject moreInfoLocomotion;
-    private GameObject moreInfoElementalBooth;
-    private GameObject moreInfoVimyRidge;
-    private GameObject moreInfoTheater;
+    public GameObject moreInfoWW1;
+    public GameObject moreInfoLocomotion;
+    public GameObject moreInfoElementalBooth;
+    public GameObject moreInfoVimyRidge;
+    public GameObject moreInfoTheater;
     
 
-
     void Start () {
-        moreInfoWW1 = GameObject.FindGameObjectWithTag("more-info-ww1");
         if (moreInfoWW1)
             moreInfoWW1.SetActive(false);
-
-        moreInfoLocomotion = GameObject.FindGameObjectWithTag("more-info-locomotion");
+        
         if (moreInfoLocomotion)
             moreInfoLocomotion.SetActive(false);
-
-        moreInfoElementalBooth = GameObject.FindGameObjectWithTag("more-info-elemental");
+        
         if (moreInfoElementalBooth)
             moreInfoElementalBooth.SetActive(false);
         
-        moreInfoVimyRidge = GameObject.FindGameObjectWithTag("more-info-vimy");
         if (moreInfoVimyRidge)
             moreInfoVimyRidge.SetActive(false);
      
-        moreInfoTheater = GameObject.FindGameObjectWithTag("more-info-theater");
         if (moreInfoTheater)
             moreInfoTheater.SetActive(false);
     }
@@ -40,6 +34,13 @@ public class MoreInfoUI : MonoBehaviour {
         {
             Debug.Log("set panel to true");
             moreInfoTheater.SetActive(true);
+            moreInfoElementalBooth.SetActive(false);
+            moreInfoLocomotion.SetActive(false);
+            moreInfoVimyRidge.SetActive(false);
+            moreInfoWW1.SetActive(false);
+        } else if (moreInfoTheater.activeInHierarchy)
+        {
+            moreInfoTheater.SetActive(false);
         }
     }
 
@@ -49,6 +50,14 @@ public class MoreInfoUI : MonoBehaviour {
         {
             Debug.Log("set panel to true");
             moreInfoWW1.SetActive(true);
+            moreInfoTheater.SetActive(false);
+            moreInfoElementalBooth.SetActive(false);
+            moreInfoLocomotion.SetActive(false);
+            moreInfoVimyRidge.SetActive(false);
+        }
+        else if (moreInfoTheater.activeInHierarchy)
+        {
+            moreInfoWW1.SetActive(false);
         }
     }
 
@@ -58,6 +67,14 @@ public class MoreInfoUI : MonoBehaviour {
         {
             Debug.Log("set panel to true");
             moreInfoLocomotion.SetActive(true);
+            moreInfoTheater.SetActive(false);
+            moreInfoElementalBooth.SetActive(false);
+            moreInfoVimyRidge.SetActive(false);
+            moreInfoWW1.SetActive(false);
+        }
+        else if (moreInfoTheater.activeInHierarchy)
+        {
+            moreInfoLocomotion.SetActive(false);
         }
     }
 
@@ -67,7 +84,12 @@ public class MoreInfoUI : MonoBehaviour {
         {
             Debug.Log("set panel to true");
             moreInfoVimyRidge.SetActive(true);
-        } else if (moreInfoVimyRidge.activeInHierarchy)
+            moreInfoTheater.SetActive(false);
+            moreInfoElementalBooth.SetActive(false);
+            moreInfoLocomotion.SetActive(false);
+            moreInfoWW1.SetActive(false);
+        }
+        else if (moreInfoTheater.activeInHierarchy)
         {
             moreInfoVimyRidge.SetActive(false);
         }
@@ -79,6 +101,14 @@ public class MoreInfoUI : MonoBehaviour {
         {
             Debug.Log("set panel to true");
             moreInfoElementalBooth.SetActive(true);
+            moreInfoTheater.SetActive(false);
+            moreInfoVimyRidge.SetActive(false);
+            moreInfoLocomotion.SetActive(false);
+            moreInfoWW1.SetActive(false);
+        }
+        else if (moreInfoTheater.activeInHierarchy)
+        {
+            moreInfoElementalBooth.SetActive(false);
         }
     }
 }
