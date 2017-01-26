@@ -131,7 +131,7 @@ public class MoreInfoUI : MonoBehaviour {
     {
         if (!moreInfoElementalBooth.activeInHierarchy && (moreInfoElementalBooth.tag == "more-info-elemental") &&
             !moreInfoVimyRidge.activeInHierarchy && !moreInfoWW1.activeInHierarchy &&
-                !moreInfoTheater.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
+                !moreInfoTheater.activeInHierarchy && !moreInfoLocomotion.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoElementalBooth.SetActive(true);

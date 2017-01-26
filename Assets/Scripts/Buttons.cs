@@ -11,14 +11,24 @@ public class Buttons : MonoBehaviour {
     
     private bool moving = false;
 
+    private GvrAudioSource gvrAudioSource;
+    public AudioClip clickSound;
+
+    void Start ()
+    {
+        gvrAudioSource = GetComponent<GvrAudioSource>();
+    } 
+
 	public void StartTutorial ()
     {
         introductoryCanvas.enabled = !introductoryCanvas.enabled;
+        gvrAudioSource.PlayOneShot(clickSound);
     }
 
     public void StartExperience ()
     {
         tutorialCanvas.enabled = !tutorialCanvas.enabled;
+        gvrAudioSource.PlayOneShot(clickSound);
     }
 
     public void DashMove()
