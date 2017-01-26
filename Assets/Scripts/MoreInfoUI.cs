@@ -9,9 +9,13 @@ public class MoreInfoUI : MonoBehaviour {
     public GameObject moreInfoElementalBooth;
     public GameObject moreInfoVimyRidge;
     public GameObject moreInfoTheater;
-    
+
+    private GvrAudioSource gvrAudioSource;
+    public AudioClip warSound;
 
     void Start () {
+        gvrAudioSource = GetComponent<GvrAudioSource>();
+
         if (moreInfoWW1)
             moreInfoWW1.SetActive(false);
         
@@ -28,9 +32,13 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoTheater.SetActive(false);
     }
 
+
+
     public void ShowTheater()
     {
-        if (!moreInfoTheater.activeInHierarchy && (moreInfoTheater.tag == "more-info-theater"))
+        if (!moreInfoTheater.activeInHierarchy && moreInfoTheater.tag == "more-info-theater" &&
+            !moreInfoVimyRidge.activeInHierarchy && !moreInfoWW1.activeInHierarchy &&
+                !moreInfoLocomotion.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoTheater.SetActive(true);
@@ -41,12 +49,15 @@ public class MoreInfoUI : MonoBehaviour {
         } else if (moreInfoTheater.activeInHierarchy)
         {
             moreInfoTheater.SetActive(false);
+            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
     }
 
     public void ShowWW1()
     {
-        if (!moreInfoWW1.activeInHierarchy && (moreInfoWW1.tag == "more-info-ww1"))
+        if (!moreInfoWW1.activeInHierarchy && moreInfoWW1.tag == "more-info-ww1" && 
+            !moreInfoVimyRidge.activeInHierarchy && !moreInfoTheater.activeInHierarchy &&
+                !moreInfoLocomotion.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoWW1.SetActive(true);
@@ -54,16 +65,22 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoElementalBooth.SetActive(false);
             moreInfoLocomotion.SetActive(false);
             moreInfoVimyRidge.SetActive(false);
+
+            gvrAudioSource.PlayOneShot(warSound, 0.5f);
         }
-        else if (moreInfoTheater.activeInHierarchy)
+        else if (moreInfoWW1.activeInHierarchy)
         {
             moreInfoWW1.SetActive(false);
+            gvrAudioSource.Stop();
+//            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
     }
 
     public void ShowLocomotion ()
     {
-        if (!moreInfoLocomotion.activeInHierarchy && (moreInfoLocomotion.tag == "more-info-locomotion"))
+        if (!moreInfoLocomotion.activeInHierarchy && moreInfoLocomotion.tag == "more-info-locomotion" &&
+            !moreInfoVimyRidge.activeInHierarchy && !moreInfoWW1.activeInHierarchy &&
+                !moreInfoTheater.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoLocomotion.SetActive(true);
@@ -72,15 +89,18 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoVimyRidge.SetActive(false);
             moreInfoWW1.SetActive(false);
         }
-        else if (moreInfoTheater.activeInHierarchy)
+        else if (moreInfoLocomotion.activeInHierarchy)
         {
             moreInfoLocomotion.SetActive(false);
+            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
     }
 
     public void ShowVimy()
     {
-        if (!moreInfoVimyRidge.activeInHierarchy && (moreInfoVimyRidge.tag == "more-info-vimy"))
+        if (!moreInfoVimyRidge.activeInHierarchy && (moreInfoVimyRidge.tag == "more-info-vimy") &&
+            !moreInfoTheater.activeInHierarchy && !moreInfoWW1.activeInHierarchy &&
+                !moreInfoLocomotion.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoVimyRidge.SetActive(true);
@@ -88,16 +108,22 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoElementalBooth.SetActive(false);
             moreInfoLocomotion.SetActive(false);
             moreInfoWW1.SetActive(false);
+
+            gvrAudioSource.PlayOneShot(warSound, 0.5f);
         }
-        else if (moreInfoTheater.activeInHierarchy)
+        else if (moreInfoVimyRidge.activeInHierarchy)
         {
             moreInfoVimyRidge.SetActive(false);
+            gvrAudioSource.Stop();
+//            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
     }
 
     public void ShowElementalBooth()
     {
-        if (!moreInfoElementalBooth.activeInHierarchy && (moreInfoElementalBooth.tag == "more-info-elemental"))
+        if (!moreInfoElementalBooth.activeInHierarchy && (moreInfoElementalBooth.tag == "more-info-elemental") &&
+            !moreInfoVimyRidge.activeInHierarchy && !moreInfoWW1.activeInHierarchy &&
+                !moreInfoTheater.activeInHierarchy && !moreInfoElementalBooth.activeInHierarchy)
         {
             Debug.Log("set panel to true");
             moreInfoElementalBooth.SetActive(true);
@@ -105,10 +131,19 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoVimyRidge.SetActive(false);
             moreInfoLocomotion.SetActive(false);
             moreInfoWW1.SetActive(false);
+            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
-        else if (moreInfoTheater.activeInHierarchy)
+        else if (moreInfoElementalBooth.activeInHierarchy)
         {
             moreInfoElementalBooth.SetActive(false);
+        }
+    }
+
+    void WarSound()
+    {
+        if (moreInfoWW1.activeInHierarchy || moreInfoVimyRidge.activeInHierarchy)
+        {
+            gvrAudioSource.Play();
         }
     }
 }
