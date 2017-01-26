@@ -12,6 +12,8 @@ public class MoreInfoUI : MonoBehaviour {
 
     private GvrAudioSource gvrAudioSource;
     public AudioClip warSound;
+    public AudioClip echoSound;
+    public AudioClip steamTrainSound;
 
     void Start () {
         gvrAudioSource = GetComponent<GvrAudioSource>();
@@ -46,10 +48,13 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoLocomotion.SetActive(false);
             moreInfoVimyRidge.SetActive(false);
             moreInfoWW1.SetActive(false);
+
+            gvrAudioSource.PlayOneShot(echoSound, 0.5f);
         } else if (moreInfoTheater.activeInHierarchy)
         {
             moreInfoTheater.SetActive(false);
-            gvrAudioSource.PlayOneShot(warSound, 0f);
+//            gvrAudioSource.PlayOneShot(warSound, 0f);
+            gvrAudioSource.Stop();
         }
     }
 
@@ -88,11 +93,14 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoElementalBooth.SetActive(false);
             moreInfoVimyRidge.SetActive(false);
             moreInfoWW1.SetActive(false);
+
+            gvrAudioSource.PlayOneShot(steamTrainSound, 0.5f);
         }
         else if (moreInfoLocomotion.activeInHierarchy)
         {
             moreInfoLocomotion.SetActive(false);
-            gvrAudioSource.PlayOneShot(warSound, 0f);
+            gvrAudioSource.Stop();
+//            gvrAudioSource.PlayOneShot(warSound, 0f);
         }
     }
 
@@ -131,19 +139,12 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoVimyRidge.SetActive(false);
             moreInfoLocomotion.SetActive(false);
             moreInfoWW1.SetActive(false);
-            gvrAudioSource.PlayOneShot(warSound, 0f);
+            gvrAudioSource.PlayOneShot(echoSound, 0.5f);
         }
         else if (moreInfoElementalBooth.activeInHierarchy)
         {
             moreInfoElementalBooth.SetActive(false);
-        }
-    }
-
-    void WarSound()
-    {
-        if (moreInfoWW1.activeInHierarchy || moreInfoVimyRidge.activeInHierarchy)
-        {
-            gvrAudioSource.Play();
+            gvrAudioSource.Stop();
         }
     }
 }
