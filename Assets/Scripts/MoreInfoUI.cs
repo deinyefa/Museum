@@ -94,7 +94,7 @@ public class MoreInfoUI : MonoBehaviour {
             moreInfoVimyRidge.SetActive(false);
             moreInfoWW1.SetActive(false);
 
-            gvrAudioSource.PlayOneShot(steamTrainSound, 0.5f);
+            gvrAudioSource.PlayOneShot(steamTrainSound, 0.75f);
         }
         else if (moreInfoLocomotion.activeInHierarchy)
         {
