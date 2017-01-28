@@ -13,7 +13,9 @@ Introductory Screen
 
 
 # Design process
-Statement of Purpose: Night at the Museum is a mobile VR experience targeted towards new and seasoned VR users that showing them just how applicable virtual reality could be to other industries.
+>Statement of Purpose: Night at the Museum is a mobile VR experience targeted towards new and seasoned VR users that showing 
+>them just how applicable virtual reality could be to other industries.
+
 Persona
 
 Meet Eve
