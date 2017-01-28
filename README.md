@@ -1,10 +1,10 @@
-# Night at the Museum
+# About
 As part of my coursework in the VR nanodegree at Udacity, I designed, tested and iterated a VR mobile experience using the Google Cardboard. This one is a little different because it is an experience of experiences! I focused on a company here in Ottawa, Canada — SimWave Consulting to show how their work brings VR technology into education. The experience includes 5 viewing stations that showcases 5 of their innovations; Vimy Ridge, CN-6400 Steam Locomotive VR Experience, 3D Interactive Theater, Royal Canadian Regiment WW1 VR Experience, and the Elemental Booth.
 
 # Unique Considerations
 An important design consideration was to create it such that everything is in front of the player and is still clearly visible. Another consideration was to design the room to be life-sized so the player doesn’t feel too small or too large. Lastly, simulator sickness was considered and minimized by limiting the movement of the user and keeping everything in front of the camera.
 
-# Museum
+# Night at the Museum
 The project was successful because of the continuous iterative process used through out its development to consistently improve game play — when I added a new feature, I built and user-tested before moving on. For user-testing, I included people who are familiar with a VR headset.
 
 Game play
