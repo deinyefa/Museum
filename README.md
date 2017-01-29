@@ -10,6 +10,7 @@ The project was successful because of the continuous iterative process used thro
 ![Gameplay](https://cloud.githubusercontent.com/assets/18746993/22408786/eb84aa24-e64c-11e6-8c60-3125ded0b8ea.PNG)
 Game play
 
+![Introductory Screen](https://cloud.githubusercontent.com/assets/18746993/22408789/1a96ed90-e64d-11e6-9496-bafd07a047fd.PNG)
 Introductory Screen
 
 
