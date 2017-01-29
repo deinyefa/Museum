@@ -19,9 +19,9 @@ Introductory Screen
 Persona
 
 Meet Eve
->Remember Eve, she was used once again as my persona when working on this project (if you don’t, please see my Puzzler story). Eve is a 
->21-year-old university student who knows little about VR. Eve is a free spirit who is always interested in trying new things. Eve 
->always says “Life’s too short.”, and so she lives in the moment.
+>I created a persona for the project named Eve. Eve is a 21-year-old university student who knows little about VR. Eve is a 
+>free spirit who is always interested in trying new things. Eve always says “Life’s too short.”, and so she lives in the 
+>moment.
 
 # Sketches
 Here are some of the sketches I used to lay the groundwork for the design of this project.
