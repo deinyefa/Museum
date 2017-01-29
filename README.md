@@ -7,6 +7,7 @@ An important design consideration was to create it such that everything is in fr
 # Night at the Museum
 The project was successful because of the continuous iterative process used through out its development to consistently improve game play — when I added a new feature, I built and user-tested before moving on. For user-testing, I included people who are familiar with a VR headset.
 
+![Gameplay](https://cloud.githubusercontent.com/assets/18746993/22408786/eb84aa24-e64c-11e6-8c60-3125ded0b8ea.PNG)
 Game play
 
 Introductory Screen
