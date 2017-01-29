@@ -7,9 +7,6 @@ An important design consideration was to create it such that everything is in fr
 # Night at the Museum
 The project was successful because of the continuous iterative process used through out its development to consistently improve game play — when I added a new feature, I built and user-tested before moving on. For user-testing, I included people who are familiar with a VR headset.
 
-![Gameplay](https://cloud.githubusercontent.com/assets/18746993/22408786/eb84aa24-e64c-11e6-8c60-3125ded0b8ea.PNG)
-Game play
-
 ![Introductory Screen](https://cloud.githubusercontent.com/assets/18746993/22408789/1a96ed90-e64d-11e6-9496-bafd07a047fd.PNG)
 Introductory Screen
 
@@ -18,7 +15,7 @@ Introductory Screen
 >Statement of Purpose: Night at the Museum is a mobile VR experience targeted towards new and seasoned VR users that showing 
 >them just how applicable virtual reality could be to other industries.
 
-Persona
+## Persona
 
 Meet Eve
 >I created a persona for the project named Eve. Eve is a 21-year-old university student who knows little about VR. Eve is a 
@@ -35,15 +32,15 @@ Testing the scene and atmosphere
 
 The user I tested this project with is familiar with VR. I had only designed the room at this point so the user was testing the scale, mood and any other interesting features. When asked about scene, the user felt small, like the ground was at the waist level, he felt like the room was supposed to feel industrial, but the walls and ceiling did not match the mood. The scene was a closed room, and there was nothing out of sight.
 
-Testing the UI elements
+## Testing the UI elements
 
 The second test that was conducted was to see if the Introductory and Tutorial UIs were comfortably sized, whether they are self-explanatory and if they work well. At this point, when clicked, the camera would zoom forward toward the center of the room. The feedback I got was that they were big, but not uncomfortable and the user did not have to strain to see the words. Also, the user knew what to do without any instructions from me and could confirm that the buttons worked.
 
-Testing motion throughout the scene
+## Testing motion throughout the scene
 
 The third test was conducted to see if the user felt comfortable during the movement though the room. The user noted that there was no problem moving through the room — it was neither too fast nor slow for the distance moved. When asked if he experienced any nausea or headaches he responded with a “no”. It was noted that the font felt a bit blurry, so I increased the dynamic pixel unit for the canvases.
 
-Testing final game mechanics
+## Testing final game mechanics
 
 The fourth and final test was conducted to test the game mechanics. When asked about the game, to the user it felt “exploratory”, like he was in a museum. Again, he noted that he did not feel any simulator sickness when playing.
 
@@ -59,4 +56,4 @@ In the moment
 # Conclusion
 Overall, Night at the Museum is a simple mobile VR experience tailored to showcase just how diverse virtual reality can be and is already becoming. It demonstrates the power audio and visual cues and how combined, they can literally take you to another place.
 # Next Steps
-For future development, Night at the Museum could include even more examples of how VR is changing our world.
+For future development, Night at the Museum could include even more examples of how VR is changing our world. Please visit [my Medium page](https://medium.com/@df.eporwei/night-at-the-museum-98431ede80bd#.icprub4rl "Medium page") to see more from me!
