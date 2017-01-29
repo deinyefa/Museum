@@ -5,12 +5,12 @@ using UnityEngine;
 public class CanvasAnimation : MonoBehaviour {
 
     private Animator anim;
-    private Animator selectedAnim;
+//    private Animator selectedAnim;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        selectedAnim = GetComponentInChildren<Animator>();
+//        selectedAnim = GetComponentInChildren<Animator>();
     }
 
     public void StartAnimation()
