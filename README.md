@@ -48,6 +48,7 @@ The fourth and final test was conducted to test the game mechanics. When asked a
 # Break down of the final piece
 The final design of the game is included as screenshots taken with a Nexus 5 below. At the start of the game, the user is faced with the Introductory UI and moved forward to meet the Tutorial UI when the Google VR reticle is pointed at the start button and the trigger pressed. Ahead of that is the 5 stations where each floating panel can be clicked to show more information about the corresponding experience accompanied by relevant sound effects. After all the stations have been viewed, the user then clicks the table at the center to restart the scene.
 
+![Intro](https://cloud.githubusercontent.com/assets/18746993/22408789/1a96ed90-e64d-11e6-9496-bafd07a047fd.PNG)
 Intro
 
 Tutorial
