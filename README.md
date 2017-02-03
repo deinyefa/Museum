@@ -51,6 +51,7 @@ The final design of the game is included as screenshots taken with a Nexus 5 bel
 ![Intro](https://cloud.githubusercontent.com/assets/18746993/22408789/1a96ed90-e64d-11e6-9496-bafd07a047fd.PNG)
 Intro
 
+![Tutorial](https://cloud.githubusercontent.com/assets/18746993/22600548/093ffa18-ea09-11e6-85c0-814937865d86.PNG)
 Tutorial
 
 In the moment
