@@ -54,6 +54,7 @@ Intro
 ![Tutorial](https://cloud.githubusercontent.com/assets/18746993/22600548/093ffa18-ea09-11e6-85c0-814937865d86.PNG)
 Tutorial
 
+![In the moment](https://cloud.githubusercontent.com/assets/18746993/22408786/eb84aa24-e64c-11e6-8c60-3125ded0b8ea.PNG)
 In the moment
 
 # Conclusion
