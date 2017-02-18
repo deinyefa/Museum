@@ -29,6 +29,7 @@ Here are some of the sketches I used to lay the groundwork for the design of thi
 Initial ideas
 
 # User Testing
+
 ### Testing the scene and atmosphere
 
 The user I tested this project with is familiar with VR. I had only designed the room at this point so the user was testing the scale, mood and any other interesting features. When asked about scene, the user felt small, like the ground was at the waist level, he felt like the room was supposed to feel industrial, but the walls and ceiling did not match the mood. The scene was a closed room, and there was nothing out of sight.
