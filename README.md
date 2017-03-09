@@ -62,4 +62,4 @@ In the moment
 Overall, Night at the Museum is a simple mobile VR experience tailored to showcase just how diverse virtual reality can be and is already becoming. It demonstrates the power audio and visual cues and how combined, they can literally take you to another place.
 
 # Next Steps
-For future development, Night at the Museum could include even more examples of how VR is changing our world. Please visit [my Medium page](https://medium.com/@df.eporwei/night-at-the-museum-98431ede80bd#.icprub4rl "Medium page") to see more from me!
+For future development, Night at the Museum could include even more examples of how VR is changing our world. Please visit [my Medium page](https://medium.com/@df.eporwei "Medium page") to see more from me!
